@@ -52,9 +52,9 @@ try:
            Description.append("N/A")
            print("Unable to open job page link.")
 
-    print(len(Title))
-    print(len(Description))
-    print(len(Company))
+    #print(len(Title))
+    #print(len(Description))
+    #print(len(Company))
     data = {
         "Title": Title,
         "Company": Company,
